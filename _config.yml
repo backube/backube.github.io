@@ -30,7 +30,7 @@ minima:
   social_links:
     github: backube
     twitter: BackubeProject
-#google_analytics: UA-NNNNNNNN-N  # TODO
+google_analytics: UA-154117660-2
 show_drafts: false
 show_excerpts: true
 
