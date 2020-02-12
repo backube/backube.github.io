@@ -31,6 +31,7 @@ minima:
     github: backube
     twitter: BackubeProject
 #google_analytics: UA-NNNNNNNN-N  # TODO
+show_drafts: false
 show_excerpts: true
 
 # Build settings
