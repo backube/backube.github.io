@@ -2,7 +2,7 @@
 layout: post
 title: "SnapScheduler v1.1.0 released"
 author: John Strunk
-categories: snapscheduler release
+categories: release snapscheduler
 ---
 
 Today marks the release of snapscheduler v1.1.0. This release brings support for
@@ -41,7 +41,8 @@ For a full list of changes, feel free to browse the repository
 ## Installing and updating
 
 The easiest way to get up and running is via the Helm chart, available from Helm
-Hub: https://hub.helm.sh/charts/backube/snapscheduler
+Hub:
+[https://hub.helm.sh/charts/backube/snapscheduler](https://hub.helm.sh/charts/backube/snapscheduler)
 
 New installation:
 
@@ -58,7 +59,8 @@ $ helm repo update
 $ helm upgrade -n backube-snapscheduler snapscheduler backube/snapscheduler
 ```
 
-The full documentation is available at https://backube.github.io/snapscheduler/
+The full documentation is available at
+[https://backube.github.io/snapscheduler/](https://backube.github.io/snapscheduler/)
 
 Comments, questions, feedback? Come say 'hi' on gitter: [![Gitter
 chat](https://badges.gitter.im/backube/snapscheduler.png)](https://gitter.im/backube/snapscheduler)
