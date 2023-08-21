@@ -5,11 +5,11 @@ layout: home
 ---
 The Backube projects:
 
-- [Scribe][scribe] - Asynchronous data
+- [VolSync][volsync] - Asynchronous data
   replication for Kubernetes CSI storage
 - [SnapScheduler][snapscheduler] - Scheduled snapshots for Kubernetes persistent volumes
 
-[scribe]: https://scribe-replication.readthedocs.io/
+[volsyc]: https://volsync.readthedocs.io/
 [snapscheduler]: https://backube.github.io/snapscheduler/
 
 ----
