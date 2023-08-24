@@ -38,9 +38,9 @@ show_excerpts: true
 markdown: kramdown
 # https://help.github.com/en/github/working-with-github-pages/adding-a-theme-to-your-github-pages-site-using-jekyll
 # To use a supported theme:
-#theme: minima
+theme: minima
 # To use any jekyll theme on GH:
-remote_theme: jekyll/minima
+#remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
   # https://github-emoji-list.herokuapp.com/
@@ -57,3 +57,15 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Mandatory settings for GH pages
+# https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll#configuring-jekyll-in-your-github-pages-site
+lsi: false
+safe: true
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
