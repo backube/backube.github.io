@@ -9,7 +9,7 @@ The Backube projects:
   replication for Kubernetes CSI storage
 - [SnapScheduler][snapscheduler] - Scheduled snapshots for Kubernetes persistent volumes
 
-[volsyc]: https://volsync.readthedocs.io/
+[volsync]: https://volsync.readthedocs.io/
 [snapscheduler]: https://backube.github.io/snapscheduler/
 
 ----
