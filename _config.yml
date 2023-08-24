@@ -28,8 +28,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #  name: The Backube Project
 minima:
   social_links:
-    github: backube
-    twitter: BackubeProject
+    - { platform: github,         user_url: "https://github.com/backube" }
+    - { platform: twitter,        user_url: "https://twitter.com/BackubeProject" }
 google_analytics: UA-154117660-2
 show_drafts: false
 show_excerpts: true
@@ -38,9 +38,9 @@ show_excerpts: true
 markdown: kramdown
 # https://help.github.com/en/github/working-with-github-pages/adding-a-theme-to-your-github-pages-site-using-jekyll
 # To use a supported theme:
-theme: minima
+#theme: minima
 # To use any jekyll theme on GH:
-#remote_theme: jekyll/minima
+remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
   # https://github-emoji-list.herokuapp.com/
